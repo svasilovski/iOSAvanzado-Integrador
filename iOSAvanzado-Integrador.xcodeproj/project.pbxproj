@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		7E72BF68218E5E970036540B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E72BF67218E5E970036540B /* AppDelegate.m */; };
-		7E72BF6B218E5E970036540B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E72BF6A218E5E970036540B /* ViewController.m */; };
 		7E72BF6E218E5E970036540B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E72BF6C218E5E970036540B /* Main.storyboard */; };
 		7E72BF71218E5E970036540B /* iOSAvanzado_Integrador.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7E72BF6F218E5E970036540B /* iOSAvanzado_Integrador.xcdatamodeld */; };
 		7E72BF73218E5E9A0036540B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E72BF72218E5E9A0036540B /* Assets.xcassets */; };
@@ -16,6 +15,8 @@
 		7E72BF79218E5E9B0036540B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E72BF78218E5E9B0036540B /* main.m */; };
 		7E72BF83218E5E9B0036540B /* iOSAvanzado_IntegradorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E72BF82218E5E9B0036540B /* iOSAvanzado_IntegradorTests.m */; };
 		7E72BF8E218E5E9B0036540B /* iOSAvanzado_IntegradorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E72BF8D218E5E9B0036540B /* iOSAvanzado_IntegradorUITests.m */; };
+		7E7AE13C218F325E00961B49 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7AE13B218F325E00961B49 /* RegisterViewController.m */; };
+		7E7AE13F218F32F900961B49 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7AE13E218F32F900961B49 /* LoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +40,6 @@
 		7E72BF63218E5E970036540B /* iOSAvanzado-Integrador.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOSAvanzado-Integrador.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E72BF66218E5E970036540B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7E72BF67218E5E970036540B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7E72BF69218E5E970036540B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7E72BF6A218E5E970036540B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7E72BF6D218E5E970036540B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7E72BF70218E5E970036540B /* iOSAvanzado_Integrador.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iOSAvanzado_Integrador.xcdatamodel; sourceTree = "<group>"; };
 		7E72BF72218E5E9A0036540B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +52,10 @@
 		7E72BF89218E5E9B0036540B /* iOSAvanzado-IntegradorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOSAvanzado-IntegradorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E72BF8D218E5E9B0036540B /* iOSAvanzado_IntegradorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSAvanzado_IntegradorUITests.m; sourceTree = "<group>"; };
 		7E72BF8F218E5E9B0036540B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E7AE13A218F325E00961B49 /* RegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		7E7AE13B218F325E00961B49 /* RegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		7E7AE13D218F32F900961B49 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		7E7AE13E218F32F900961B49 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,10 +106,9 @@
 		7E72BF65218E5E970036540B /* iOSAvanzado-Integrador */ = {
 			isa = PBXGroup;
 			children = (
+				7E7AE136218F31DA00961B49 /* Login */,
 				7E72BF66218E5E970036540B /* AppDelegate.h */,
 				7E72BF67218E5E970036540B /* AppDelegate.m */,
-				7E72BF69218E5E970036540B /* ViewController.h */,
-				7E72BF6A218E5E970036540B /* ViewController.m */,
 				7E72BF6C218E5E970036540B /* Main.storyboard */,
 				7E72BF72218E5E9A0036540B /* Assets.xcassets */,
 				7E72BF74218E5E9A0036540B /* LaunchScreen.storyboard */,
@@ -133,6 +135,17 @@
 				7E72BF8F218E5E9B0036540B /* Info.plist */,
 			);
 			path = "iOSAvanzado-IntegradorUITests";
+			sourceTree = "<group>";
+		};
+		7E7AE136218F31DA00961B49 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				7E7AE13A218F325E00961B49 /* RegisterViewController.h */,
+				7E7AE13B218F325E00961B49 /* RegisterViewController.m */,
+				7E7AE13D218F32F900961B49 /* LoginViewController.h */,
+				7E7AE13E218F32F900961B49 /* LoginViewController.m */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,7 +278,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E72BF6B218E5E970036540B /* ViewController.m in Sources */,
+				7E7AE13C218F325E00961B49 /* RegisterViewController.m in Sources */,
+				7E7AE13F218F32F900961B49 /* LoginViewController.m in Sources */,
 				7E72BF68218E5E970036540B /* AppDelegate.m in Sources */,
 				7E72BF79218E5E9B0036540B /* main.m in Sources */,
 				7E72BF71218E5E970036540B /* iOSAvanzado_Integrador.xcdatamodeld in Sources */,
